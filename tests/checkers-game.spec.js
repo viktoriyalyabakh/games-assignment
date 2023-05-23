@@ -11,7 +11,7 @@ test.describe("Checkers game", () => {
    *  d) Confirm that the restarting had been successful
    */
 
-  test.skip("Checkers game automation", async ({ page }) => {
+  test("Checkers game automation", async ({ page }) => {
     const response = await page.goto("https://www.gamesforthebrain.com/game/checkers/");
 
     // Confirming here site is up

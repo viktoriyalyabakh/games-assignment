@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:checkers": "npx playwright test checkers-game.spec.js",
+    "test:card": "npx playwright test card-game.spec.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
